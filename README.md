@@ -1,2 +1,2 @@
 # Program-Controller
-The project for the finel task in SoftServe University OOP C#.
+The project for the final task in SoftServe University OOP C#.
