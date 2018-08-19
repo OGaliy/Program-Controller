@@ -1,0 +1,17 @@
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\EXE_Controler.exe.config
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\EXE_Controler.exe
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\EXE_Controler.pdb
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\MetroFramework.dll
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\MetroFramework.Fonts.dll
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.csprojAssemblyReference.cache
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.FinalTask.resources
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.Properties.Resources.resources
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.csproj.GenerateResource.cache
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.csproj.CoreCompileInputs.cache
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.csproj.CopyComplete
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.exe
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.pdb
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\EXE_Controler.exe.manifest
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\bin\Debug\EXE_Controler.application
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.exe.manifest
+E:\Навчання\SoftServe курси\EXE_Controler\EXE_Controler\obj\Debug\EXE_Controler.application

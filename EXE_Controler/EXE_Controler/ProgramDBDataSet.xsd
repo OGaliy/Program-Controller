@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProgramDBDataSet" targetNamespace="http://tempuri.org/ProgramDBDataSet.xsd" xmlns:mstns="http://tempuri.org/ProgramDBDataSet.xsd" xmlns="http://tempuri.org/ProgramDBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ProgramDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ProgramDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.EXE_Controler.Properties.Settings.GlobalReference.Default.ProgramDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PROGRAN_BASETableAdapter" GeneratorDataComponentClassName="PROGRAN_BASETableAdapter" Name="PROGRAN_BASE" UserDataComponentName="PROGRAN_BASETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProgramDBConnectionString (Settings)" DbObjectName="dbo.PROGRAN_BASE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NAME, ROAD FROM dbo.PROGRAN_BASE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NAME" DataSetColumn="NAME" />
+              <Mapping SourceColumn="ROAD" DataSetColumn="ROAD" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProgramDBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ProgramDBDataSet" msprop:Generator_UserDSName="ProgramDBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROGRAN_BASE" msprop:Generator_TableClassName="PROGRAN_BASEDataTable" msprop:Generator_TableVarName="tablePROGRAN_BASE" msprop:Generator_TablePropName="PROGRAN_BASE" msprop:Generator_RowDeletingName="PROGRAN_BASERowDeleting" msprop:Generator_RowChangingName="PROGRAN_BASERowChanging" msprop:Generator_RowEvHandlerName="PROGRAN_BASERowChangeEventHandler" msprop:Generator_RowDeletedName="PROGRAN_BASERowDeleted" msprop:Generator_UserTableName="PROGRAN_BASE" msprop:Generator_RowChangedName="PROGRAN_BASERowChanged" msprop:Generator_RowEvArgName="PROGRAN_BASERowChangeEvent" msprop:Generator_RowClassName="PROGRAN_BASERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ROAD" msprop:Generator_ColumnVarNameInTable="columnROAD" msprop:Generator_ColumnPropNameInRow="ROAD" msprop:Generator_ColumnPropNameInTable="ROADColumn" msprop:Generator_UserColumnName="ROAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
