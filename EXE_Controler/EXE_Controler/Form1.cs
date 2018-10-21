@@ -22,7 +22,7 @@ namespace EXE_Controler
         
         static IntPtr handle;
         
-        string connectionSql = @"Data Source=.\SQLEXPRESS;Initial Catalog=Program_N_and_R;Integrated Security=True";
+        string connectionSql = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Date.mdf;Integrated Security=True";
 
         Dictionary<string, string> ProgramList = new Dictionary<string, string>();
 
@@ -226,6 +226,10 @@ namespace EXE_Controler
             }
             MessageBox.Show(info);            
         }
-        
+
+        private void ProgramBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

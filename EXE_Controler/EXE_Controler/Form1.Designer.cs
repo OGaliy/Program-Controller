@@ -66,6 +66,7 @@
             this.ProgramBox.Name = "ProgramBox";
             this.ProgramBox.Size = new System.Drawing.Size(206, 29);
             this.ProgramBox.TabIndex = 0;
+            this.ProgramBox.SelectedIndexChanged += new System.EventHandler(this.ProgramBox_SelectedIndexChanged);
             // 
             // ADD_PROGRAM
             // 

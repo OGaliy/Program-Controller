@@ -57,5 +57,16 @@ namespace EXE_Controler.Properties {
                 return ((string)(this["ProgramDBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Date.mdf;Inte" +
+            "grated Security=True")]
+        public string DateConnectionString {
+            get {
+                return ((string)(this["DateConnectionString"]));
+            }
+        }
     }
 }

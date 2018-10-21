@@ -47,14 +47,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EXE_Controler.exe" size="522200">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EXE_Controler.exe" size="546264">
       <assemblyIdentity name="EXE_Controler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>adLxJ2f/8ofrJhrTQkE26dVoOQm6pqpgX8qWJc+D4QY=</dsig:DigestValue>
+        <dsig:DigestValue>oDQY/H1utqBo/vzsmK5aGr7bfgdDH2x8DI28W/q2OQc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -82,13 +82,31 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="EXE_Controler.exe.config" size="1364">
+  <file name="Date.mdf" size="8388608" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/ay+yad5mD5KMuLrJQR9+ZjlXekMfQWgTx59SKvXXxU=</dsig:DigestValue>
+      <dsig:DigestValue>2in5Zj7/zrNWl5ZZ6D+AO9/uetek314IYSkPMx9prCc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Date_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q5ju8ERJg51Y1N1yz74IOR+Hg0DTmYTZU95KHRFiukY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EXE_Controler.exe.config" size="1627">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xINB+2O2C59IL+u+6qXiGpIjUq43Q4ofGeVkuvjhP1c=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MetroFramework.txt" size="1266">
